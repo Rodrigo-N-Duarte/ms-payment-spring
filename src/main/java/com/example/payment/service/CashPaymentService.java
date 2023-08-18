@@ -1,8 +1,8 @@
 package com.example.payment.service;
 
 import com.example.payment.interfaces.IPaymentMethods;
-import com.example.payment.model.dto.abstracts.RequestPaymentDTO;
-import com.example.payment.model.dto.abstracts.ResponsePaymentDTO;
+import com.example.payment.model.dto.payment.RequestPaymentDTO;
+import com.example.payment.model.dto.payment.ResponsePaymentDTO;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
